@@ -167,6 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
+        Laraveldaily\Apigenerator\ApiGeneratorProvider::class,
 
         /*
          * Application Service Providers...
